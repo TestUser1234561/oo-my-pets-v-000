@@ -1,5 +1,5 @@
 class Dog
-  
+
   attr_accessor :mood
   @name
 
@@ -11,5 +11,5 @@ class Dog
   def name
     @name
   end
-  
+
 end
