@@ -46,6 +46,7 @@ class Owner
     @pets[:cats].each {|d| d.mood = "nervous"}
     @pets[:fishes].each {|d| d.mood = "nervous"}
     @pets[:dogs].each {|d| d.mood = "nervous"}
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
