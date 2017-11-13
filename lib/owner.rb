@@ -38,6 +38,10 @@ class Owner
     @pets[:fishes].each {|d| d.mood = "happy"}
   end
 
+  def play_with_cats
+    @pets[:cats].each {|d| d.mood = "happy"}
+  end
+
   def self.all
     @@all
   end
