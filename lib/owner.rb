@@ -14,6 +14,10 @@ class Owner
     @species
   end
 
+  def say_species
+    puts @species
+  end
+
   def self.all
     @@all
   end
