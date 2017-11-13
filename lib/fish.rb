@@ -1,5 +1,5 @@
 class Fish
-  
+
   attr_accessor :mood
   @name
 
@@ -11,5 +11,5 @@ class Fish
   def name
     @name
   end
-  
+
 end
